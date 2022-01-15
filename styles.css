@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+}
+.main{
+    /* background-color: yellow; */
+    width: 80vw;
+
+}
+
+.sidebar{
+    background-color: rgb(218, 208, 208);
+    width: 20vw;
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 30;
+    height: 100vh;
+
+}
+
+.sidebar nav{
+    padding: 35px;
+
+}
+
+.sidebar nav li{
+    list-style: none;
+    padding: 30px 0px;
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar nav li a:hover{
+    color: blue;
+}
+
+.info{
+    height: 60vh;
+    width: 70vw;
+    /* background-color: rgb(255, 0, 170); */
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-around;
+}
+.devinfo{
+    justify-content: center;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+
+}
+.devpic img{
+    height: 60vh;
+    width: 30vw;
+    
+}
+
+.greeting{
+    font-size: 75px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Luxurious Roman', cursive;
+
+}
+
+.about{
+    font-size: 35px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.moreabout{
+    font-size: 20px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-top: 20px;
+
+}
+
+.buttons{
+    margin-top: 15px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.buttons button{
+    border: 2px black solid;
+    margin: 10px;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+    font-size: 20;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.contactform{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding-top: 75px;
+    padding-left: 100px;
+
+}
+.contactform h1{
+    font-family: 'Luxurious Roman', cursive;
+    text-align: center;
+
+}
+.contactform div{
+    padding-top: 20px;
+}
+#emailHelp{
+    padding-top: 2px;
+    font-size: 10;
+    color: dodgerblue;
+
+}
+
+.contactform div label{
+    font-weight: bold;
+}
+
+.contactform div input{
+    padding: 5px;
+    border: 1px solid rgb(173, 27, 27);
+    border-radius: 5px;
+    width: 250px;
+}
+/* .contactform div input:selection{
+    border: 5px solid yellow;
+
+} */
+
+.contactform div textarea{
+    margin-top: 10px;
+    padding: 3px;
+    border: 1px solid rgb(173, 27, 27);
+    border-radius: 5px;
+}
+
+.contactform form button{
+    margin-top: 15px;
+    padding: 7px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 15;
+
+
+}
+
+.contactform form button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.some{
+    margin: 50px;
+}
+
+.some h1{
+    font-family: 'Luxurious Roman', cursive;
+    
+}
+.some p{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-top: 10px;
+}
+.some h2{
+    margin-top: 20px;
+    font-family: 'Luxurious Roman', cursive;
+
+}
+
+.skill{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    flex-direction: row;
+
+}
+
+.skill p{
+    font-weight: bold;
+    margin-top: 0;
+}
+
+
+.wrapper{
+    padding: 0;
+    margin: 10px;
+    /* background-color: blue; */
+    width: 200px;
+    height: 6px;
+    border: 1px solid black;
+
+}
+.percent{
+    /* margin: 5px; */
+    background-color: rgb(5, 161, 5);
+    width: 150px;
+    height: 6px;
+    border: 1px solid green;
+}
+
+
+.few{
+    display: flex;
+    /* align-items: center; */
+    margin-top: 10px;
+    
+}
+
+.few img{
+    margin-left: 20px;
+    height: 80vh;
+    width: 60vw;
+}
+
+.projects{
+    font-family: 'Be Vietnam Pro', sans-serif;
+
+}
+
+.projects a{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20;
+    color: dodgerblue;
+}
+
+
+
